@@ -17,6 +17,7 @@ public static void main(String[] args) throws IOException {
 	Workbook wb=new XSSFWorkbook(file);
 	Sheet sheet=wb.getSheetAt(0);
 	
+/************Excel Iterator using POI*********/
 	Iterator<Row> iterow=sheet.iterator();
 	while(iterow.hasNext()) {
 		
