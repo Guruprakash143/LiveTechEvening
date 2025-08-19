@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[UserName Entered]]>
+    </line>
+    <line>
+      <![CDATA[UserName Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked...]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked...]]>
+    </line>
+    <line>
+      <![CDATA[Logout link Clicked...]]>
+    </line>
+    <line>
+      <![CDATA[Logout link Clicked...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-31T20:58:01 IST" name="CrossBrowser" finished-at="2025-07-31T20:58:06 IST" duration-ms="5129">
+    <groups>
+    </groups>
+    <test started-at="2025-07-31T20:58:01 IST" name="Edge Browser Test" finished-at="2025-07-31T20:58:06 IST" duration-ms="5117">
+      <class name="testng.CrossBrowserTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testng.CrossBrowserTest@3d34d211]" started-at="2025-07-31T20:58:01 IST" name="openBrowser" finished-at="2025-07-31T20:58:04 IST" duration-ms="3041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login()[pri:0, instance:testng.CrossBrowserTest@3d34d211]" started-at="2025-07-31T20:58:04 IST" name="login" finished-at="2025-07-31T20:58:04 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:testng.CrossBrowserTest@3d34d211]" started-at="2025-07-31T20:58:04 IST" name="logout" finished-at="2025-07-31T20:58:05 IST" duration-ms="916" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout link Clicked...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testng.CrossBrowserTest@3d34d211]" started-at="2025-07-31T20:58:05 IST" name="closeBrowser" finished-at="2025-07-31T20:58:06 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng.CrossBrowserTest -->
+    </test> <!-- Edge Browser Test -->
+    <test started-at="2025-07-31T20:58:01 IST" name="Chrome Browser Test" finished-at="2025-07-31T20:58:06 IST" duration-ms="5129">
+      <class name="testng.CrossBrowserTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testng.CrossBrowserTest@5bda8e08]" started-at="2025-07-31T20:58:01 IST" name="openBrowser" finished-at="2025-07-31T20:58:04 IST" duration-ms="3059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login()[pri:0, instance:testng.CrossBrowserTest@5bda8e08]" started-at="2025-07-31T20:58:04 IST" name="login" finished-at="2025-07-31T20:58:04 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserName Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:testng.CrossBrowserTest@5bda8e08]" started-at="2025-07-31T20:58:04 IST" name="logout" finished-at="2025-07-31T20:58:05 IST" duration-ms="929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout link Clicked...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testng.CrossBrowserTest@5bda8e08]" started-at="2025-07-31T20:58:05 IST" name="closeBrowser" finished-at="2025-07-31T20:58:06 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng.CrossBrowserTest -->
+    </test> <!-- Chrome Browser Test -->
+  </suite> <!-- CrossBrowser -->
+</testng-results>

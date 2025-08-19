@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Grouping">
+	<test name="Grouping Test">
+		<groups>
+			<run>
+				<include name="Smoke" />
+				<exclude name="Sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.GroupingTest" />
+		</classes>
+	</test>
+</suite>
